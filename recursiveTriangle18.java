@@ -70,6 +70,12 @@ public class recursiveTriangle18 extends JApplet
     
                 //create x,y Array using the midpoints you calculated
                 //example
+                int X1[] = {xPos[0],x1, x3, xPos[0]}
+                int X1[] = {xPos[1],x2, x1, xPos[1]}
+                int X1[] = {xPos[2],x3, x2, xPos[2]}
+                 int X1[] = {xPos[0],x1, x3, xPos[0]}
+                int X1[] = {xPos[1],x2, x1, xPos[1]}
+                int X1[] = {xPos[2],x3, x2, xPos[2]}
     
     
     
@@ -77,6 +83,8 @@ public class recursiveTriangle18 extends JApplet
                 // Recursive calls for each section of triangle
     
                 Triangle(nX, nY, page);
+                Triangle(
+                Triangle(
     
             //}
             
