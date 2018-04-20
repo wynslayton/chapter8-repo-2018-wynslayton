@@ -49,7 +49,7 @@ public class recursiveTriangle18 extends JApplet
 
         //if the segment/distance is 30 or so, good length to stop
         
-            if (d > 10){
+            if (d > 2){
             //{
                 //find the mid points of each line segment 
                 int x1 = (xPos[0] + xPos[1])/2;
@@ -70,21 +70,21 @@ public class recursiveTriangle18 extends JApplet
     
                 //create x,y Array using the midpoints you calculated
                 //example
-                int X1[] = {xPos[0],x1, x3, xPos[0]}
-                int X1[] = {xPos[1],x2, x1, xPos[1]}
-                int X1[] = {xPos[2],x3, x2, xPos[2]}
-                 int X1[] = {xPos[0],x1, x3, xPos[0]}
-                int X1[] = {xPos[1],x2, x1, xPos[1]}
-                int X1[] = {xPos[2],x3, x2, xPos[2]}
+                int X1[] = {xPos[0],x1, x3, xPos[0]};
+                int X2[] = {xPos[1],x2, x1, xPos[1]};
+                int X3[] = {xPos[2],x3, x2, xPos[2]};
+                 int Y1[] = {yPos[0],y1, y3, yPos[0]};
+                int Y2[] = {yPos[1],y2, y1, yPos[1]};
+                int Y3[] = {yPos[2],y3, y2, yPos[2]};
     
     
     
     
                 // Recursive calls for each section of triangle
     
-                Triangle(nX, nY, page);
-                Triangle(
-                Triangle(
+                Triangle(X1, Y1, page);
+                Triangle(X2, Y2, page);
+                Triangle(X3, Y3, page);
     
             //}
             
