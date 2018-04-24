@@ -49,7 +49,7 @@ public class recursiveTriangle18 extends JApplet
 
         //if the segment/distance is 30 or so, good length to stop
         
-            if (d > 2){
+            if (d > 15){
             //{
                 //find the mid points of each line segment 
                 int x1 = (xPos[0] + xPos[1])/2;

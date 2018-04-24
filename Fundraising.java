@@ -7,11 +7,12 @@ public class Fundraising
     }
     
     public int callNum(int m){
+        System.out.println(m);
         if(m ==1)
             return 1;
         else{
-                people += callNum(m/10)*10+1;
-                return people;
+                return callNum(m/10)*10+1 +callNum(m/10)*10 +callNum(m/10)*10 +callNum(m/10)*10 +callNum(m/10)*10 +callNum(m/10)*10 +callNum(m/10)*10 +callNum(m/10)*10 +callNum(m/10)*10 +callNum(m/10)*10;
+
             
         }
     }
